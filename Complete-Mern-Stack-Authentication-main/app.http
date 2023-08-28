@@ -1,0 +1,19 @@
+###
+POST http://localhost:8009/register
+Content-Type: "application/json"
+
+{
+    "firstName": "sweta",
+    "lastName": "B",
+    "email": "sweta@gmail.com", 
+    "password": "123456", 
+    "cpassword": "123456", 
+    "dob": "04-05-2021", 
+    "gender": "Female", 
+    "contactNumber": "66754297875", 
+    "address": "India", 
+    "emergencyContact": "53458675634", 
+    "bloodGroup": "O+", 
+    "allergies": "None", 
+    "medicalHistory": "None"
+}
